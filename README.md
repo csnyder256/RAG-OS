@@ -3,8 +3,8 @@
 **Build your own always-on AI agent that dispatches coding tasks across your repositories, maintains its own git-Markdown knowledge base, and runs on hardware you own. This is a vendor-neutral blueprint you paste into any coding agent (Claude Code, Codex, Cursor, an agent SDK, or a plain API loop) and it builds the system with you, asking at every design decision.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/USER/REPO?style=social)](https://github.com/csnyder256/RAG-OS/stargazers)
-[![Forks](https://img.shields.io/github/forks/USER/REPO?style=social)](https://github.com/csnyder256/RAG-OS/network/members)
+[![Stars](https://img.shields.io/github/stars/csnyder256/RAG-OS?style=social)](https://github.com/csnyder256/RAG-OS/stargazers)
+[![Forks](https://img.shields.io/github/forks/csnyder256/RAG-OS?style=social)](https://github.com/csnyder256/RAG-OS/network/members)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 If this blueprint is useful to you, a star helps other people find it.
