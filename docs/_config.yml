@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: RAG-OS
+description: >-
+  Build your own always-on personal AI OS. A vendor-neutral blueprint you hand to a coding
+  agent, plus a runnable starter. A DIY alternative to Letta, mem0, Hermes Agent, and AutoGPT.
+url: "https://csnyder256.github.io"
+baseurl: "/RAG-OS"
+show_downloads: false

@@ -1,0 +1,16 @@
+# RAG-OS
+
+> A vendor-neutral blueprint for building a self-hosted, always-on personal AI operating system: an agent that dispatches coding tasks across your repositories, maintains a git-Markdown knowledge base, and runs on hardware you own. You paste the build guide into a coding agent (Claude Code, Codex, Cursor, or an SDK) and it builds the system with you, asking at every design decision.
+
+RAG-OS is a documentation-plus-scaffold project, not a framework to install. It is a DIY alternative to agent-memory and long-running-agent systems such as Letta (MemGPT), mem0, Hermes Agent, and AutoGPT, unifying orchestrator and worker dispatch, a librarian-maintained knowledge base, hybrid retrieval (BM25 plus vector with reciprocal rank fusion), budget governance, and a security model in one owned system. The founding rule is that durable state lives in files and a database, the brains are ephemeral sessions, and a small kernel coordinates everything and holds zero model context.
+
+## Core documents
+- [Build guide](https://raw.githubusercontent.com/csnyder256/RAG-OS/main/BUILD-GUIDE.md): the full architecture as twelve pillars, cross-cutting principles, nineteen anti-patterns, and a milestone build order, written to be handed to a coding agent that asks the user at every decision fork.
+- [README](https://raw.githubusercontent.com/csnyder256/RAG-OS/main/README.md): overview, quickstart, comparison to other systems, and FAQ.
+- [Starter scaffold](https://github.com/csnyder256/RAG-OS/tree/main/starter): a runnable, stdlib-only Python reference for the first two milestones (kernel, single-instance lock, heartbeat, watchdog, the security gate, and the control CLI).
+
+## Topics
+- Personal AI OS, LLM OS, autonomous agent, always-on agent, agent memory, long-term memory for LLMs, RAG, retrieval augmented generation, hybrid search, reciprocal rank fusion, self-hosted AI agent, agent security, prompt-injection defense, budget control for LLM agents, Claude Code, Model Context Protocol.
+
+## Repository
+- [GitHub repository](https://github.com/csnyder256/RAG-OS)
