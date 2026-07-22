@@ -36,6 +36,8 @@ The core idea in one line: durable state lives in files and a database, the brai
 
 A reasonable minimum viable cut of the system lands about halfway through the milestones. You do not have to build all of it.
 
+**Try it now:** the [`starter/`](starter/) folder is a runnable, stdlib-only reference for Milestones M0 and M1 (kernel, single-instance lock, heartbeat, watchdog, the gate, and the control CLI). Clone it and run `python osctl.py start && python osctl.py status`.
+
 ## The architecture at a glance
 
 Twelve pillars, each with the decision forks your agent will ask you about:
