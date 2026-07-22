@@ -8,3 +8,5 @@ baseurl: "/RAG-OS"
 show_downloads: false
 plugins:
   - jekyll-sitemap
+webmaster_verifications:
+  google: CpPP0N_Hg-_aObndZofw8pq8R26uwjbQE8uqXB-qTPI
